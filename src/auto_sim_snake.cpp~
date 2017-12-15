@@ -1,0 +1,27 @@
+/**
+ * @file auto_sim_snake.cpp
+ * @brief 阿部さんのシミュレータを自動的に回すプログラム
+ * @author Taichi Akiyama
+ * @date 2017/11/30
+ * @detail
+ */
+
+
+
+
+#include "ros/ros.h"
+
+int main(int argc, char **argv) {
+
+  ros::init(argc, argv, "auto_sim_snake");
+  ROS_INFO("Start Auto Simulation");
+
+
+
+  while (ros::ok())
+  {
+    
+  }
+  return 0;
+}
+
